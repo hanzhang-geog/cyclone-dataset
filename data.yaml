@@ -1,0 +1,9 @@
+# data.yaml for Typhoon Detection Task
+
+path: D:/TyphoonTools/dataset  # 数据集根路径（无引号的绝对路径或相对路径都可以）
+train: train/images            # 训练集图像路径
+val: val/images                # 验证集图像路径
+test: test/images              # 测试集图像路径（可选）
+
+nc: 1                          # 类别数量
+names: ["cyclone"]              # 类别名称
